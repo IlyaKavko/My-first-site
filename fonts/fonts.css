@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Wallpoet";
+    src: url("Wallpoet/Wallpoet.eot");
+    src: url("Wallpoet/Wallpoet.eot?#iefix") format("embedded-opentype"),
+        url("Wallpoet/Wallpoet.woff2") format("woff2"),
+        url("Wallpoet/Wallpoet.woff") format("woff"),
+        url("Wallpoet/Wallpoet.ttf") format("truetype"),
+        url("Wallpoet/Wallpoet.svg#Wallpoet") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url('Wisdom-Script/Wisdom-Script.eot');
+    src: url('Wisdom-Script/Wisdom-Script.eot?#iefix') format('embedded-opentype'),
+        url('Wisdom-Script/Wisdom-Script.woff2') format('woff2'),
+        url('Wisdom-Script/Wisdom-Script.woff') format('woff'),
+        url('Wisdom-Script/Wisdom-Script.ttf') format('truetype'),
+        url('Wisdom-Script/Wisdom-Script.svg#Wisdom-Script') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('Montserrat/MontserratBold/Montserrat-Bold.eot');
+    src: url('Montserrat/MontserratBold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat/MontserratBold/Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat/MontserratBold/Montserrat-Bold.woff') format('woff'),
+        url('Montserrat/MontserratBold/Montserrat-Bold.ttf') format('truetype'),
+        url('Montserrat/MontserratBold/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Monteserrat/MontserratRegular/Montserrat-Regular.eot');
+    src: url('Monteserrat/MontserratRegular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Monteserrat/MontserratRegular/Montserrat-Regular.woff2') format('woff2'),
+        url('Monteserrat/MontserratRegular/Montserrat-Regular.woff') format('woff'),
+        url('Monteserrat/MontserratRegular/Montserrat-Regular.ttf') format('truetype'),
+        url('Monteserrat/MontserratRegular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('DroidSerif/DroidSerif.eot');
+    src: url('DroidSerif/DroidSerif.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif/DroidSerif.woff2') format('woff2'),
+        url('DroidSerif/DroidSerif.woff') format('woff'),
+        url('DroidSerif/DroidSerif.ttf') format('truetype'),
+        url('DroidSerif/DroidSerif.svg#DroidSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSerifItalic';
+    src: url('DroidSerifItalic/DroidSerif-Italic.eot');
+    src: url('DroidSerifItalic/DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerifItalic/DroidSerif-Italic.woff2') format('woff2'),
+        url('DroidSerifItalic/DroidSerif-Italic.woff') format('woff'),
+        url('DroidSerifItalic/DroidSerif-Italic.ttf') format('truetype'),
+        url('DroidSerifItalic/DroidSerif-Italic.svg#DroidSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
