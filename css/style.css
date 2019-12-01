@@ -1,6 +1,5 @@
 #all {
-  background: url(../image/fon.jpg) no-repeat center top / cover;
-  height: 742px;
+  background: url(../image/fon.jpg) no-repeat center top;
   font: 16px/1.4 "MontserratBold", Arial, Tahoma, sans-serif;
 }
 
