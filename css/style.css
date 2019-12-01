@@ -1,121 +1,97 @@
-
 #all {
-  font: 16px/1.6 'MontserratBold';
-  width: 940px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-#fon {
-  position: absolute;
-  width: 1400px;
+  background: url(../image/fon.jpg) no-repeat center top / cover;
   height: 742px;
-  background-image: url(../image/fon.jpg);
-
+  font: 16px/1.4 "MontserratBold", Arial, Tahoma, sans-serif;
 }
 
-#header  {
+#main {
   width: 940px;
   margin: 0 auto;
-  position: relative;
 }
 
-.homelogo {
-  font-family: 'Wisdom Script', Arial, Tahoma, Verdana;
+#logo h1{
+  font-family: "Wisdom Script";
   font-size: 26px;
-  padding-top: 60px;
+  padding-top: 49px;
 }
 
-.homelogo a{
-  color: #eae703;
-  text-transform: capitalize;
+#logo a {
+  color: #fed136;
 }
 
-.homelogo a:hover {
-  color: #eae703;
+a {
   text-decoration: none;
 }
 
-#menu {
-  float: right;
-  margin-top: -10px;
+a:hover {
+  text-decoration: underline;
 }
 
-#menu ul li {
+#nav {
+  float: right;
+  margin-top: -16px;
+}
+
+#nav a {
   font-family: 'Montserrat', sans-serif;
   float: left;
   margin-left: 39px;
-}
- a {
-   color: #ffffff;
-   text-decoration: none;
-   text-transform: uppercase;
- }
-
- a:hover {
-   color: #ffffff;
-   text-decoration: underline;
- }
-
- #head {
-  margin: 204px 0 141px 0;
- }
-
- #head h1 {
-   font-family: 'DroidSerifItalic';
-   color: #ffffff;
-   text-align: center;
-   font-size: 40px;
-   text-transform: capitalize;
- }
-
-#head h2 {
   color: #ffffff;
-  text-align: center;
-  font-size: 75px;
   text-transform: uppercase;
 }
 
-.button {
-  margin: 30px 340px 0;
+
+#maintext {
+  text-align: center;
+  margin-top: 205px;
+}
+
+#maintext h1 {
+  font-family: "DroidSerifItalic";
+  font-size: 40px;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+#maintext p {
+  text-transform: uppercase;
+  font-size: 75px;
+  color: #ffffff;
+}
+
+#button {
+  margin: 30px 340px 132px;
   border: 2px solid #fed136;
   background-color: #fed136;
   padding: 25px 0 25px 0;
   border-radius: 8px;
 }
 
-.button a{
+#button a {
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;
+  color: #ffffff;
 }
 
 #services {
-  font: 18px/1.6 'MontserratBold';
   width: 940px;
   margin: 0 auto;
-  padding: 117px 0 110px 0;
-  overflow: hidden;
 }
 
-#services p{
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-}
-
-#content-box {
+#servicestext {
   text-align: center;
+  padding-top: 120px;
 }
 
-#content-box p{
-  font-size: 16px;
-}
-
-#content-box h1 {
+#servicestext h1{
   font-size: 40px;
-  color: #222222;
   text-transform: uppercase;
+}
+
+#servicestext p{
+  font-family: "DroidSerifItalic";
+  color: #777777;
 }
 
 .box {
@@ -126,225 +102,17 @@
   padding-right: 35px;
 }
 
-.box h1{
+.boxtext h1{
+  font-size: 18px;
   margin-top: 25px;
 }
 
+.boxtext p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777
+}
+
 #box {
-  padding-right: 0;
-}
-
-#fonportfolio {
-  background-color: #f7f7f7;
-  overflow: hidden;
-  position: absolute;
-  width: 1400px;
-  height: 1280px;
-}
-
-#portfolio {
-  font: 16px/1.4 'MontserratBold';
-  width: 940px;
-  margin: 0 auto;
-  padding: 120px 0 124px 0;
-  overflow: hidden;
-  position: relative;
-}
-
-#ourportfolio {
-  text-align: center;
-}
-
-#ourportfolio p {
-  font-family: 'DroidSerifItalic';
-  font-size: 16px;
-  color: #777777;
-}
-
-#ourportfolio h1 {
-  font-size: 40px;
-  color: #222222;
-  text-transform: uppercase;
-}
-
-.portfoliobox {
-  width: 290px;
-  float: left;
-  text-align: center;
-  margin-top: 79px;
-  padding-right: 35px;
-}
-
-.portfoliobox p {
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-}
-
-.portfoliobox a {
-    text-transform: capitalize;
-    color: inherit;
-}
-
-#portfoliobox {
-  padding-right: 0;
-}
-
-.txt {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  margin-top: -7px;
-  padding: 28px 0 29px 0;
-}
-
-#about {
-  font: 16px/1.4 'MontserratBold';
-  width: 940px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-#aboutus {
-  text-align: center;
-}
-
-#aboutus h1 {
-  margin-top: 120px;
-  font-size: 40px;
-  text-transform: uppercase;
-}
-
-#aboutus p {
-  font-family: 'DroidSerifItalic';
-  font-size: 16px;
-  color: #777777;
-}
-
-.abouttxtleft {
-  text-align: right;
-  margin-left: 25px;
-}
-
-.abouttxtleft h1 {
-  margin-top: 100px;
-  font-size: 18px;
-}
-
-.abouttxtleft p{
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-}
-
-.aboutimgleft {
-  float: right;
-  margin-top: -16px;
-  padding: 0 380px 0 40px;
-}
-
-.abouttxtrite {
-  text-align: left;
-  margin-right: 25px;
-}
-
-.abouttxtrite h1 {
-  margin-top: 120px;
-  font-size: 18px;
-}
-
-.abouttxtrite p{
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-}
-
-.aboutimgrite{
-  float: left;
-  margin-top: -16px;
-  padding: 0 40px 0 380px;
-}
-
-#adoutbuton {
-  margin: 113px 380px 0;
-  border: 6px solid #f1f1f1;
-  background-color: #fed136;
-  padding: 32px 0 32px 0;
-  border-radius: 100%;
-}
-
-#adoutbuton p {
-  text-transform: uppercase;
-  font-size: 18px;
-  text-align: center;
-  padding: 0 30px;
-}
-
-#fonamazingtem {
-  background-color: #f7f7f7;
-  overflow: hidden;
-  position: absolute;
-  width: 1400px;
-  height: 785px;
-  margin-top: 120px;
-}
-
-#amazingtem {
-  font: 16px/1.4 'MontserratBold';
-  width: 940px;
-  margin: 0 auto;
-  padding: 120px 0 89px 0;
-  overflow: hidden;
-  position: relative;
-}
-
-#hederamazing {
-    text-align: center;
-}
-
-#hederamazing h1 {
-  margin-top: 120px;
-  font-size: 40px;
-  text-transform: uppercase;
-}
-
-#hederamazing p {
-  font-family: 'DroidSerifItalic';
-  font-size: 16px;
-  color: #777777;
-}
-
-#foto {
-  margin-top: 90px;
-  width: 200px;
-  height: 200px;
-  background: rgb(0, 0, 0);
-  border-radius: 50%;
-  float: left;
-  margin-right: 35px;
-  text-align: center;
-}
-
-.foto {
-  margin-left: 139px;
-}
-
-#foto h1{
-  margin-top: 220px;
-  font-size: 16px;
-}
-
-#foto p {
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-  padding-bottom: 10px;
-}
-
-#amazingtxt {
-  margin-top: 460px;
-  text-align: center;
-  font-family: 'DroidSerifItalic';
-  font-size: 14px;
-  color: #777777;
-  padding: 0 182px;
+  padding-right: 0px;
 }
