@@ -1,5 +1,6 @@
 #all {
-  background: url(../image/fon.jpg) no-repeat center top;
+  background: url(../image/fon.jpg) no-repeat center top / cover;
+  height: 742px;
   font: 16px/1.4 "MontserratBold", Arial, Tahoma, sans-serif;
 }
 
@@ -28,7 +29,7 @@ a:hover {
 
 #nav {
   float: right;
-  margin-top: -16px;
+  margin-top: -22px;
 }
 
 #nav a {
@@ -76,6 +77,7 @@ a:hover {
 #services {
   width: 940px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #servicestext {
@@ -114,4 +116,66 @@ a:hover {
 
 #box {
   padding-right: 0px;
+}
+
+#portfolio {
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+#portfoliotext {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.portfolioheder {
+    text-align: center;
+}
+
+.portfolioheder h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.portfolioheder p {
+  font-family: "DroidSerifItalic";
+  color: #777777;
+}
+
+.portfoliobox {
+  float: left;
+  padding-right: 22px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#portfoliobox {
+  padding-right: 0;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.portfoliobot {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin-top: -5px;
+  padding: 28px 0 29px 0;
+}
+
+.portfoliobot h1 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.portfoliobot p {
+  font-family: "DroidSerifItalic";
+  font-size: 14px;
+  color: #777777;
+}
+
+.portfoliobot a:hover {
+  color: #333333;
 }
