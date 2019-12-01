@@ -90,6 +90,8 @@ a:hover {
   text-transform: uppercase;
 }
 
+}
+
 #servicestext p{
   font-family: "DroidSerifItalic";
   color: #777777;
@@ -178,4 +180,282 @@ a:hover {
 
 .portfoliobot a:hover {
   color: #333333;
+}
+
+#about {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#aboutheader {
+  text-align: center;
+}
+
+#aboutheader h1 {
+  text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 40px;
+}
+
+#aboutheader p{
+  font-family: "DroidSerifItalic";
+  font-size: 16px;
+  color: #777777;
+}
+
+#aboutbox {
+  margin-top: 81px;
+}
+
+.boxtextleft {
+  width: 283px;
+  text-align: right;
+  margin-left: 65px;
+}
+
+.boxtextleft h1 {
+  font-size: 18px
+}
+
+.boxtextleft p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777
+}
+
+.t1 {
+  padding-left: 43px;
+}
+
+.boxleft {
+  float: right;
+  margin-right: 380px;
+}
+
+.boxtextright {
+  width: 283px;
+  float:right;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+.boxtextright h1 {
+  font-size: 18px
+}
+
+.boxtextright p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777;
+}
+
+.boxright {
+  margin-left: 380px;
+  padding-top: 50px;
+}
+
+.button {
+  margin: 81px 371px 132px;
+  border: 7px solid #f1f1f1;
+  background-color: #fed136;
+  padding: 40px 50px 40px 50px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.button a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.button a:hover {
+  color: #ffffff;
+}
+
+#team {
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+
+#amazing {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#amazingtext{
+  text-align: center;
+}
+
+#amazingtext h1{
+  text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 40px;
+}
+
+#amazingtext p{
+  font-family: "DroidSerifItalic";
+  font-size: 16px;
+  color: #777777;
+}
+
+.amazingpip {
+  width: 200px;
+  height: 200px;
+  background: #000000;
+  border-radius: 50%;
+}
+
+.amazing24 {
+  float: left;
+  text-align: center;
+  margin-right: 60px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+#amazing24{
+  margin-left: 110px;
+}
+
+#amazing25{
+  margin-right: 0;
+}
+
+.amazingname {
+  margin-top: 30px;
+}
+
+.amazingname p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.tex {
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 60px 0 120px;
+}
+
+.tex p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777;
+  padding: 0 180px 0 180px;
+}
+
+#spinsor {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#logosposor {
+  margin: 60px 0 60px 0;
+  text-align: center;
+}
+
+#logosposor a {
+  padding-right: 40px;
+}
+
+#contact {
+  background: url(../image/map.jpg) no-repeat center top / cover;
+  height: 675px;
+  overflow: hidden;
+}
+
+#contactus {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contactus h1 {
+  margin-top: 120px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#contactus p {
+  font-family: "DroidSerifItalic";
+  font-size: 16px;
+  color: #505050;
+}
+
+#forma {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.textarea {
+  float: right;
+
+}
+
+.row {
+  margin-top: 80px;
+}
+
+input[type="text"] {
+  width: 455px;
+  height: 50px;
+  margin-bottom: 27px;
+  padding-left: 20px;
+}
+
+input[type="text"], textarea {
+  font: 14px "MontserratBold";
+  color: #bbbbbb;
+  border: 1px solid #222222;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 15px 0 0 20px;
+}
+
+#formabutton24 {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#formabutton {
+  margin: 30px 340px 0px;
+  border: 2px solid #fed136;
+  background-color: #fed136;
+  padding: 25px 0 25px 0;
+  border-radius: 8px;
+}
+
+#formabutton a {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#footer {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#socialfooter {
+  float: right;
+  margin-right: 380px;
+  margin-bottom: 30px;
+}
+
+#footertext {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #555555;
+  margin-top: 40px;
+  padding-top: 12px;
 }
