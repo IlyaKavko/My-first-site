@@ -44,6 +44,8 @@ a:hover {
 #maintext {
   text-align: center;
   margin-top: 205px;
+  transition: transform 1s cubic-bezier(.42,-0.48,.55,1.49) 1s;
+  transform: scale(1.1);
 }
 
 #maintext h1 {
@@ -65,6 +67,17 @@ a:hover {
   background-color: #fed136;
   padding: 25px 0 25px 0;
   border-radius: 8px;
+  transform: scaleX(1);
+  transition: .2s linear;
+}
+
+#button:hover {
+  transform: scale(1.1);
+}
+
+#button:active {
+  transform: scale(1);
+  transition: scale .1s linear;
 }
 
 #button a {
@@ -261,6 +274,17 @@ a:hover {
   padding: 40px 50px 40px 50px;
   border-radius: 100%;
   text-align: center;
+  transform: scale(1);
+  transition: transform .2s linear;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.button:active {
+  transform: scale(1);
+  transition: scale .1s linear;
 }
 
 .button a {
@@ -311,7 +335,6 @@ a:hover {
   text-align: center;
   margin-right: 60px;
   margin-top: 80px;
-  overflow: hidden;
 }
 
 #amazing24{
@@ -336,6 +359,20 @@ a:hover {
   margin-top: 10px;
 }
 
+.social a img {
+  transform: scale(1);
+  transition: transform .2s linear;
+}
+
+.social a img:hover {
+  transform: scale(1.2);
+}
+
+.social a img:active {
+  transform: scale(1);
+  transition: scale 0.1s linear;
+}
+
 .tex {
   width: 940px;
   margin: 0 auto;
@@ -351,7 +388,7 @@ a:hover {
   padding: 0 180px 0 180px;
 }
 
-#spinsor {
+#sponsor {
   width: 940px;
   margin: 0 auto;
 }
@@ -363,6 +400,20 @@ a:hover {
 
 #logosposor a {
   padding-right: 40px;
+}
+
+#logosposor a img {
+transform: scale(1);
+transition: transform .2s linear;
+}
+
+#logosposor a img:hover {
+  transform: scale(1.2);
+}
+
+#logosposor a img:active {
+  transform: scale(1);
+  transition: scale 0.1s linear;
 }
 
 #contact {
@@ -397,7 +448,8 @@ a:hover {
 
 .textarea {
   float: right;
-
+  display: block;
+  overflow: hidden;
 }
 
 .row {
@@ -405,7 +457,7 @@ a:hover {
 }
 
 input[type="text"] {
-  width: 455px;
+  width: 420px;
   height: 50px;
   margin-bottom: 27px;
   padding-left: 20px;
@@ -416,6 +468,7 @@ input[type="text"], textarea {
   color: #bbbbbb;
   border: 1px solid #222222;
   border-radius: 5px;
+  display: flex;
 }
 
 textarea {
@@ -433,6 +486,17 @@ textarea {
   background-color: #fed136;
   padding: 25px 0 25px 0;
   border-radius: 8px;
+  transform: scale(1);
+  transition: .2s linear;
+}
+
+#formabutton:hover {
+  transform: scale(1.1);
+}
+
+#formabutton:active {
+  transform: scale(1);
+  transition: scale .1s linear;
 }
 
 #formabutton a {
@@ -458,4 +522,18 @@ textarea {
   color: #555555;
   margin-top: 40px;
   padding-top: 12px;
+}
+
+#socialfooter a img {
+  transform: scale(1);
+  transition: transform .2s linear;
+}
+
+#socialfooter a img:hover{
+  transform: scale(1.2);
+}
+
+#socialfooter a img:active {
+  transform: scale(1);
+  transition: scale .1s linear;
 }
